@@ -1,0 +1,16 @@
+origin:
+https://medium.com/front-end-hacking/react-by-example-part-1-76d3e2137cf4
+
+mkdir cra-counter
+cd cra-counter
+npx create-react-app react
+npx create-react-app vanilla
+
+cd vanilla
+delete src\*.* and create "counter" js code: src\index.js
+delete public\*.*, then create "counter" html code: public\index.html 
+run "yarn start"
+
+CRA has little to do with building React applications but is rather a robust modern JavaScript build solution
+
+much of what folk are learning when they transition to React is the concepts and tools used in modern JavaScript development; actually React itself is fairly simple
